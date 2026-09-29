@@ -1,0 +1,20 @@
+[
+  {
+    "id": "r1",
+    "name": "Overheating Sustained",
+    "deviceId": "PUMP-01",
+    "metric": "temperature",
+    "operator": "SustainedAbove",
+    "threshold": 80,
+    "durationSeconds": 30,
+    "enabled": true
+  },
+  {
+    "id": "r2",
+    "name": "High Pressure",
+    "metric": "pressure",
+    "operator": "GreaterThan",
+    "threshold": 10,
+    "enabled": true
+  }
+]
