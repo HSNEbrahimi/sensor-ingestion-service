@@ -1,0 +1,25 @@
+# .NET
+bin/
+obj/
+*.user
+*.suo
+.vs/
+.vscode/
+
+# EF Core / SQLite
+*.db
+*.db-shm
+*.db-wal
+sensor.db*
+
+# Publish output
+publish/
+Publish/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# IDE
+.idea/
+*.swp
